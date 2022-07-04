@@ -1,0 +1,43 @@
+ls
+list
+source("/Users/mester/Projects/enneagram-new/enneagram/Enneagram.R")
+source("/Users/mester/Projects/enneagram-new/enneagram/Enneagram/app.R")
+install.packages("shiny", type="binary")
+source("/Users/mester/Projects/enneagram-new/enneagram/Enneagram/app.R")
+install.packages("shinyWidgets", type="binary")
+source("/Users/mester/Projects/enneagram-new/enneagram/Enneagram/app.R")
+install.packages("tidyverse", type="binary")
+source("/Users/mester/Projects/enneagram-new/enneagram/Enneagram/app.R")
+install.packages("ggthemes", type="binary")
+source("/Users/mester/Projects/enneagram-new/enneagram/Enneagram/app.R")
+refresh()
+.libPaths()
+source("/Users/mester/Projects/enneagram-new/enneagram/Enneagram/app.R")
+source("/Users/mester/Projects/enneagram-new/enneagram/Enneagram/data.RData")
+source("/Users/mester/Projects/enneagram-new/enneagram/Enneagram/app.R")
+source("/Users/mester/Projects/enneagram-new/enneagram/Enneagram/app.R")
+setwd("/Users/mester/Projects/enneagram-new/enneagram/")
+setwd("/Users/mester/Projects/enneagram-new/enneagram/Enneagram")
+setwd("/Users/mester/Projects/enneagram-new/enneagram/Enneagram/")
+runApp(appDir = getwd(),#
+  port = getOption("shiny.port"))
+runApp(#
+  appDir = getwd(),#
+  port = getOption("shiny.port"),#
+  launch.browser = getOption("shiny.launch.browser", interactive()),#
+  host = getOption("shiny.host", "127.0.0.1"),#
+  workerId = "",#
+  quiet = FALSE,#
+  display.mode = c("auto", "normal", "showcase"),#
+  test.mode = getOption("shiny.testmode", FALSE)#
+)
+runApp(#
+  appDir = getwd(),#
+  port = getOption("shiny.port"),#
+  launch.browser = getOption("shiny.launch.browser", interactive()),#
+  host = getOption("shiny.host", "127.0.0.1"),#
+  workerId = "",#
+  quiet = FALSE,#
+  display.mode = c("auto", "normal", "showcase"),#
+  test.mode = getOption("shiny.testmode", FALSE)#
+)
