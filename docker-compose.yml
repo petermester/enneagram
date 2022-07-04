@@ -1,0 +1,11 @@
+version: '3.6'
+services:
+  enneagramr:
+    build: .
+    #image: nginx:latest
+    container_name: enneagramr
+    ports:
+      - '80:8888'
+    #network_mode: host
+    # volumes:
+    #   - ./enneagram_test/:/usr/share/nginx/html
